@@ -1,0 +1,113 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: aliceblue;
+  color: brown;
+}
+
+.main-header ul {
+  display: flex;
+}
+
+.main-header ul li {
+  margin-left: 20px;
+}
+
+.main-header ul li a {
+  color: brown;
+  text-decoration: none;
+}
+
+.main-header ul li a:hover {
+  color: rgb(119, 20, 20);
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  color: aliceblue;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.card-section h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  color: brown;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  background-color: rgb(227, 185, 184);
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card h4 {
+  font-size: 24px;
+  color: black;
+  margin: 7px;
+}
+
+.card p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(70, 58, 58);
+}
+
+.main-footer {
+  margin-top: 40px;
+  background-color: rgb(227, 176, 176);
+  color: rgb(35, 2, 2);
+  padding: 20px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.social-links a {
+  margin: 20px;
+}
+
+.main-footer h5 {
+  font-size: 20px;
+  color: brown;
+  font-weight: 700;
+  margin: 20px;
+}
